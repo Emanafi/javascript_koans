@@ -1,4 +1,4 @@
-var _; //globals
+  `21`var _; //globals
 
 /* This section uses a functional extension known as Underscore.js - http://documentcloud.github.com/underscore/
      "Underscore is a utility-belt library for JavaScript that provides a lot of the functional programming support
@@ -11,9 +11,9 @@ describe("About Higher Order Functions", function () {
     var numbers = [1,2,3];
     var odd = _(numbers).filter(function (x) { return x % 2 !== 0 });
     
-    expect(odd).toEqual(FILL_ME_IN);
-    expect(odd.length).toBe(FILL_ME_IN);
-    expect(numbers.length).toBe(FILL_ME_IN);
+    expect(odd).toEqual([1, 3]);
+    expect(odd.length).toBe(2);
+    expect(numbers.length).toBe(3);
   });
     
   it("should use 'map' to transform each element", function () {
